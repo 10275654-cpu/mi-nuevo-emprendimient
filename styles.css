@@ -9,7 +9,14 @@
 }
 
 body {
-  background-color: #f0f4f8;
+  /* Fondo con la imagen especificada */
+  background-image: url('5311436.jpg');
+  background-size: cover;         /* Escala la imagen para cubrir toda la pantalla */
+  background-position: center;    /* Centra la imagen */
+  background-repeat: no-repeat;   /* Evita que la imagen se repita */
+  background-attachment: fixed;   /* Mantiene el fondo fijo al hacer scroll */
+  
+  background-color: #f0f4f8;      /* Color de respaldo si la imagen tarda en cargar */
   color: #333333;
   padding: 20px;
 }
@@ -167,4 +174,3 @@ p {
   color: #fca326;
   margin-bottom: 5px;
 }
-
