@@ -103,10 +103,8 @@ p {
 /* =========================================
    6. CONTENIDO DE LAS PÁGINAS (PRODUCTOS, ETC.)
    ========================================= */
-#titulo {
+.textoblanco {
   color:#f0f4f8
-}
-#subtitulo {color:aliceblue
 }
 
 .seccion-tarjetas {
