@@ -10,7 +10,7 @@
 
 body {
   /* Fondo con la imagen especificada */
-  background-image: url('5311436.jpg');
+  background-image: url(https://wallpaperaccess.com/full/5311436.jpg);
   background-size: cover;         /* Escala la imagen para cubrir toda la pantalla */
   background-position: center;    /* Centra la imagen */
   background-repeat: no-repeat;   /* Evita que la imagen se repita */
@@ -40,13 +40,13 @@ header {
 h1 {
   font-size: 28px;
   margin-bottom: 8px;
-  color: #1a252f;
+  color: black;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  color: #555555;
+  color:black;
 }
 
 /* =========================================
@@ -103,6 +103,12 @@ p {
 /* =========================================
    6. CONTENIDO DE LAS PÁGINAS (PRODUCTOS, ETC.)
    ========================================= */
+#titulo {
+  color:#f0f4f8
+}
+#subtitulo {color:aliceblue
+}
+
 .seccion-tarjetas {
   display: flex;
   flex-direction: column;
